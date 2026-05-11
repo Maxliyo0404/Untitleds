@@ -12,9 +12,9 @@ function Header() {
             <a className="logo" href="#"><img src={logo_1} alt="logo"/>Dizenfeksiya</a>
             <ul className="header-list">
                 <li><a className="header-link" href="#">Service</a></li>
-                <li><a className="header-link" href="#">Service</a></li>
+                <li><a className="header-link" href="#">About</a></li>
                 <li><a className="header-link" href="#">Faq</a></li>
-                <li><a className="header-link" href="#">    </a></li>
+                <li><a className="header-link" href="#">Contact</a></li>
             </ul>
             <select className="select">
                 <option value="en">Uz</option>
