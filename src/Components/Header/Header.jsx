@@ -17,8 +17,8 @@ function Header() {
             </ul>
             <select className="select">
                 <option value="en">eng</option>
-                <option value="en">eng</option>
-                <option value="en">eng</option>
+                <option value="uz">uzb</option>
+                <option value="ru">rus</option>
             </select>
         </div>
     </div>
