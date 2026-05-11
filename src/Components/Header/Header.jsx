@@ -4,6 +4,9 @@ import logo_1 from "./image/logo_1.svg"
 
  
 function Header() {
+    const handleChangeLanguage =(event)=>{
+        i18next.changLanguage(event.target.value)
+    }
   return (
    <>
    <div className="Header">
