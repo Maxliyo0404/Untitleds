@@ -22,7 +22,7 @@ function Header() {
                 <li><a className="header-link" href="#">{t("header.faq")}</a></li>
                 <li><a className="header-link" href="#">{t("header.contact")}</a></li>
             </ul>
-            <select className="select" onChange={handleChangeLanguage} defaultValue={i18n.language}>
+            <select className="select" onChange={handleChangeLanguage} value={i18n.language} >
                 <option value="uz">Uz</option>
                 <option value="en">Eng</option>
                 <option value="ru">Rus</option>
