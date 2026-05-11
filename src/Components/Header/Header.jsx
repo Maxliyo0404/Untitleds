@@ -10,10 +10,10 @@ function Header() {
         <div className="header-container">
             <a className="logo" href="#"><img src="" alt="" />Dizenfeksiya</a>
             <ul className="header-list">
-                <li><a className="header-link" href="#"></a></li>
-                <li><a className="header-link" href="#"></a></li>
-                <li><a className="header-link" href="#"></a></li>
-                <li><a className="header-link" href="#"></a></li>
+                <li><a className="header-link" href="#">Service</a></li>
+                <li><a className="header-link" href="#">Service</a></li>
+                <li><a className="header-link" href="#">Faq</a></li>
+                <li><a className="header-link" href="#">    </a></li>
             </ul>
             <select className="select">
                 <option value="en">eng</option>
