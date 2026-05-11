@@ -15,7 +15,7 @@ function Header() {
    <div className="Header">
     <div className="container">
         <div className="header-container">
-            <a className="logo" href="#"><img src={logo_1} alt="logo"/>{t("header.Dizenfeksiya")}</a>
+            <a className="logo" href="#"><img src={logo_1} alt="logo"/>{t("header.logo")}</a>
             <ul className="header-list">
                 <li><a className="header-link" href="#">{t("header.service")} </a></li>
                 <li><a className="header-link" href="#">{t("header.about")}</a></li>
