@@ -17,10 +17,10 @@ function Header() {
         <div className="header-container">
             <a className="logo" href="#"><img src={logo_1} alt="logo"/>Dizenfeksiya</a>
             <ul className="header-list">
-                <li><a className="header-link" href="#">{t(Header.service)} </a></li>
-                <li><a className="header-link" href="#">{t(Header.about)}</a></li>
-                <li><a className="header-link" href="#">{t(Header.faq)}</a></li>
-                <li><a className="header-link" href="#">{t(Header.contact)}</a></li>
+                <li><a className="header-link" href="#">{t(header.service)} </a></li>
+                <li><a className="header-link" href="#">{t(header.about)}</a></li>
+                <li><a className="header-link" href="#">{t(header.faq)}</a></li>
+                <li><a className="header-link" href="#">{t(header.contact)}</a></li>
             </ul>
             <select className="select" onChange={handleChangeLanguage}>
                 <option value="en">Uz</option>
