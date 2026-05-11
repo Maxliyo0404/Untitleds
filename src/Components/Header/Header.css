@@ -4,6 +4,11 @@
     justify-content: space-between;
     padding: 20px 0;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
 .header-list{
     display: flex;
     align-items: center;
