@@ -6,9 +6,9 @@ import { useTranslation } from "react-i18next";
 
  
 function Header() {
-    const {t, i18n} = useTranslation
+    const {t, i18n} = useTranslation()
     const handleChangeLanguage =(event)=>{
-        i18next.changLanguage(event.target.value)
+        i18n.changeLanguage(event.target.value)
     }
   return (
    <>
@@ -22,9 +22,9 @@ function Header() {
                 <li><a className="header-link" href="#">{t("header.faq")}</a></li>
                 <li><a className="header-link" href="#">{t("header.contact")}</a></li>
             </ul>
-            <select className="select" onChange={handleChangeLanguage}>
-                <option value="en">Uz</option>
-                <option value="uz">Eng</option>
+            <select className="select" onChange={handleChangeLanguage} defaultValue={i18n.language}>
+                <option value="uz">Uz</option>
+                <option value="en">Eng</option>
                 <option value="ru">Rus</option>
             </select>
             <button className="header-btn"></button>
