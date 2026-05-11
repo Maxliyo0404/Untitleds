@@ -2,9 +2,11 @@ import "./Header.css";
 import React from 'react'
 import logo_1 from "./image/logo_1.svg"
 import i18next from "i18next";
+import { useTranslation } from "react-i18next";
 
  
 function Header() {
+    const {t, i18n} = useTranslation
     const handleChangeLanguage =(event)=>{
         i18next.changLanguage(event.target.value)
     }
@@ -15,12 +17,12 @@ function Header() {
         <div className="header-container">
             <a className="logo" href="#"><img src={logo_1} alt="logo"/>Dizenfeksiya</a>
             <ul className="header-list">
-                <li><a className="header-link" href="#">Service</a></li>
+                <li><a className="header-link" href="#"> Service</a></li>
                 <li><a className="header-link" href="#">About</a></li>
                 <li><a className="header-link" href="#">Faq</a></li>
                 <li><a className="header-link" href="#">Contact</a></li>
             </ul>
-            <select className="select">
+            <select className="select" onChange={handleChangeLanguage}>
                 <option value="en">Uz</option>
                 <option value="uz">Eng</option>
                 <option value="ru">Rus</option>
