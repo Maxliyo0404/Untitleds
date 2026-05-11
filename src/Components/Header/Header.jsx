@@ -15,6 +15,11 @@ function Header() {
                 <li><a className="header-link" href="#"></a></li>
                 <li><a className="header-link" href="#"></a></li>
             </ul>
+            <select className="select">
+                <option value="en">eng</option>
+                <option value="en">eng</option>
+                <option value="en">eng</option>
+            </select>
         </div>
     </div>
    </div>
