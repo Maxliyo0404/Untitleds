@@ -6,5 +6,9 @@
       "faq": "FAQ",
       "contact": "Contact",
        "btn": "Login"
+    },
+    "hero":{
+      "title": "Disinfection service",
+      "text": "Our company has been operating for many years. Our customers are satisfied with us"
     }
 }

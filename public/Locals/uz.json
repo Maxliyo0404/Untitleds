@@ -6,6 +6,9 @@
       "faq": "Ko'p beriladigan savollar",
       "contact": "Aloqa",
       "btn": "Kirish"
-      
-   } 
+   } ,
+   "hero":{
+      "title": "Dizinfeksiya xizmati",
+      "text" : "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+   }
 }
