@@ -24,7 +24,7 @@
     padding-top: 32px;
 }
 .icon{
-    font-size: 35px;
+    font-size: 45px;
     color: blue;
     margin-bottom: 20px;
 }
@@ -43,4 +43,23 @@
     color: #676D83;
     font-family: "Roboto", sans-serif;
     
+}
+@media (max-width: 860px) {
+  .one-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 550px) {
+    .one-title{
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+  .one-list{
+    grid-template-columns:  1fr;
+    gap: 20px;
+  }
+  .one-item{
+    padding-top: 20px;
+  }
 }
