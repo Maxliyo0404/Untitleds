@@ -1,0 +1,9 @@
+
+.sectionTwo-wrapper{
+    padding: 40px 0;
+    min-height: 600px;
+    background-image: url(../SectionTwo/image/two_1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
