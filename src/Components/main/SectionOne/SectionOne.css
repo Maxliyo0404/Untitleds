@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
 .sectionOne_wrapper{
   padding: 40px 0;
 
+}
+.one-title{
+     font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #020C31;
+    margin-bottom: 32px;
+    font-family: "Unbounded", sans-serif;
 }
 .one-list{
     display: grid;
