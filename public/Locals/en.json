@@ -11,5 +11,12 @@
       "title": "Disinfection service",
       "text": "Our company has been operating for many years. Our customers are satisfied with us",
       "hero-btn": "Contact Us"
-    }
+    },
+    "sectionOne": {
+  "one-title": "Our Advantages",
+  "list-title": "Fast service",
+  "list-title1": "Our expert professionals",
+  "list-title2": "At your convenient time",
+  "list-text": "Our company has been operating for many years, and our clients are satisfied with us."
+}
 }

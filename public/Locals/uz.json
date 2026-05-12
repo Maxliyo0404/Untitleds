@@ -11,5 +11,13 @@
       "title": "Dizinfeksiya xizmati",
       "text" : "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
       "hero-btn": "Bog’lanish"
+   },
+   "sectionOne":{
+      "one-title": "Avfzalliklarimiz",
+      "list-title": "Tezda xizmat ko’rsatish",
+      "list-title1": "Yetuk mutahasislaimiz",
+      "list-title2": "Sizga maqul vaqtda",
+      "list-text" : "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+
    }
 }
