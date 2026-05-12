@@ -86,9 +86,34 @@
     font-family: "Roboto", sans-serif;
 }
 .three-rasm{
-    max-width: 100%;
+    max-width: 90%;
     text-align: end;
     position: absolute;
     right:  10%;
-    bottom: 0;
+    bottom: 8%;
+}
+@media (max-width: 880px) {
+  .three-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+    .three-title{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .three-text{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+  .three-list{
+    grid-template-columns:  1fr;
+  }
+  .three-item{
+    min-height: 320px;
+  }
+  .list-title{
+    max-width: 100%;
+    font-size: 22px;
+  }
 }
