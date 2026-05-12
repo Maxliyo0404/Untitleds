@@ -9,7 +9,7 @@ function SectionThree() {
         <div className="container">
             <div className="sectionThree-wrapper">
                 <h2 className="three-title">{t("sectionThree.three-title")}</h2>
-                <p className="three-title">{t("sectionThree.three-text")}</p>
+                <p className="three-text">{t("sectionThree.three-text")}</p>
                 <ul className="three-list">
                     <li className="three-item">
                         <h3 className="list-title">{t("sectionThree.list-title")}</h3>
@@ -17,13 +17,13 @@ function SectionThree() {
                         <span className="three-span">{t("sectionThree.span1")}</span>
                     </li>
                     <li className="three-item">
-                        <h3 className="list-title">{t("sectionThree.list-title")}</h3>
-                        <p className="list-text">{t("sectionThree.list-text")}</p>
-                        <span className="three-span">{t("sectionThree.span1")}</span>
+                        <h3 className="list-title">{t("sectionThree.list-title1")}</h3>
+                        <p className="list-text">{t("sectionThree.list-text1")}</p>
+                        <span className="three-span">{t("sectionThree.span2")}</span>
                     </li>
                     <li className="three-item">
-                        <h3 className="list-title">{t("sectionThree.list-title")}</h3>
-                        <p className="list-text">{t("sectionThree.list-text")}</p>
+                        <h3 className="list-title">{t("sectionThree.list-title2")}</h3>
+                        <p className="list-text">{t("sectionThree.list-text2")}</p>
                         <span className="three-span">{t("sectionThree.span1")}</span>
                     </li>
                 </ul>

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.sectionThree-wrapper{
+    padding: 40px 0;
+}
+.three-title{
+
+     font-weight: 700;
+    font-size: 52px;
+    line-height: 64px;
+    color: #020C31;
+    margin-bottom: 16px;
+    font-family: "Unbounded", sans-serif;
+}
+.three-text{
+    max-width: 335px;
+     font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 48px;
+    font-family: "Roboto", sans-serif;
+}
+.three-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.three-item{
+    max-width: 100%;
+}
