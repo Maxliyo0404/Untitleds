@@ -29,4 +29,8 @@
 }
 .three-item{
     max-width: 100%;
+    background: #F3F6F6;
+    border-radius: 12px;
+    padding: 48px 33px;
+
 }
