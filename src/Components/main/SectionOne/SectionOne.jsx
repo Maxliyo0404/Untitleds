@@ -13,7 +13,7 @@ function SectionOne() {
         <div className="container">
             <div className="sectionOne_wrapper">
                 <h2 className="one-title">{t ("sectionOne.one-title")}</h2>
-                <hr />
+        
                 <ul className="one-list">
                     <li className="one-item">
                      <div className="icon"><GiBrain /></div>
