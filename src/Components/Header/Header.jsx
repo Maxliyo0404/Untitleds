@@ -1,39 +1,69 @@
+import React, { useState } from 'react';
 import "./Header.css";
-import React from 'react'
-import logo_1 from "./image/logo_1.svg"
-import i18next from "i18next";
+import logo_1 from "./image/logo_1.svg";
 import { useTranslation } from "react-i18next";
 
-
- 
 function Header() {
-    const {t, i18n} = useTranslation()
-    const handleChangeLanguage =(event)=>{
-        i18n.changeLanguage(event.target.value)
-    }
-  return (
-   <>
-   <div className="Header">
-    <div className="container">
-        <div className="header-container">
-            <a className="logo" href="#"><img src={logo_1} alt="logo"/>{t("header.logo")}</a>
-            <ul className="header-list">
-                <li><a className="header-link" href="#">{t("header.service")} </a></li>
-                <li><a className="header-link" href="#">{t("header.about")}</a></li>
-                <li><a className="header-link" href="#">{t("header.faq")}</a></li>
-                <li><a className="header-link" href="#">{t("header.contact")}</a></li>
-            </ul>
-            <select className="select" onChange={handleChangeLanguage} value={i18n.language} >
-                <option value="uz">Uz</option>
-                <option value="en">Eng</option>
-                <option value="ru">Rus</option>
-            </select>
-            <button className="header-btn"></button>
-        </div>
-    </div>
-   </div>
-   </>
-  )
+    const { t, i18n } = useTranslation();
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+    const handleChangeLanguage = (event) => {
+        i18n.changeLanguage(event.target.value);
+    };
+
+    return (
+        <header className="header">
+            <div className="container">
+                <nav className="header-nav">
+                    {/* Logo */}
+                    <a className="logo" href="/">
+                        <img src={logo_1} alt="logo" />
+                        <span>{t("header.logo")}</span>
+                    </a>
+
+                    {/* Navigatsiya menyusi */}
+                    <ul className={`header-list ${isMenuOpen ? "active" : ""}`}>
+                        <li><a className="header-link" href="#" onClick={() => setIsMenuOpen(false)}>{t("header.service")}</a></li>
+                        <li><a className="header-link" href="#" onClick={() => setIsMenuOpen(false)}>{t("header.about")}</a></li>
+                        <li><a className="header-link" href="#" onClick={() => setIsMenuOpen(false)}>{t("header.faq")}</a></li>
+                        <li><a className="header-link" href="#" onClick={() => setIsMenuOpen(false)}>{t("header.contact")}</a></li>
+                        
+                        {/* Faqat mobilda ko'rinadigan tugma */}
+                        <li className="mobile-only">
+                            <button className="header-btn">{t("header.btn")}</button>
+                        </li>
+                    </ul>
+
+                    {/* O'ng tomon: Til va Tugma */}
+                    <div className="header-actions">
+                        <div className="select-wrapper">
+                            <select className="lang-select" onChange={handleChangeLanguage} value={i18n.language}>
+                                <option value="uz">Uz</option>
+                                <option value="en">En</option>
+                                <option value="ru">Ru</option>
+                            </select>
+                        </div>
+                        
+                        <button className="header-btn desktop-only">{t("header.btn")}</button>
+
+                        {/* Burger menyu belgisi */}
+                        <div className={`burger-menu ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+            {/* Mobil menyu ochiqligida orqa fonni qorong'ulash (ixtiyoriy) */}
+            {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}
+        </header>
+    );
 }
 
 export default Header;

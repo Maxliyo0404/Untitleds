@@ -4,6 +4,7 @@
       "service": "Services",
       "about": "About Us",
       "faq": "FAQ",
-      "contact": "Contact"
+      "contact": "Contact",
+       "btn": "Login"
     }
 }
