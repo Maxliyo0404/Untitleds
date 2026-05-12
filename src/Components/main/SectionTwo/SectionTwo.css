@@ -35,3 +35,15 @@
     margin-bottom: 136px;
     font-family: "Roboto", sans-serif;
 }
+.two-btn{
+    padding: 10px 40px;
+    background: #3360FF;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
