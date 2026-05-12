@@ -37,6 +37,7 @@ function Header() {
           <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
             <option value="uz">Uz</option>
             <option value="en">Eng</option>
+            <option value="ru"> Rus</option>
           </select>
           <button className="header-btn">{t("header.btn")}</button>
         </div>
