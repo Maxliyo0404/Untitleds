@@ -29,8 +29,16 @@
 }
 .three-item{
     max-width: 100%;
+    min-height: 500px;
     background: #F3F6F6;
     border-radius: 12px;
     padding: 48px 33px;
+    position: relative;
 
+}
+.three-rasm{
+    max-width: 100%;
+    text-align: end;
+    position: absolute;
+    bottom: 0;
 }
