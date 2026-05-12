@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -22,11 +25,13 @@
     position: relative;
 }
 .hero-title{
+    max-width: 588px;
     font-weight: 700;
     font-size: 64px;
     line-height: 72px;
     color: #3375FF;
     margin-bottom: 32px;
+    font-family: "Unbounded", sans-serif;
 }
 
 .hero-qol{
@@ -38,5 +43,5 @@
     max-width: 50%;
 }
 .right-rasm{
-    max-width: 100%;
+    max-width: 99%;
 }
