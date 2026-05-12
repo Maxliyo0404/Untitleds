@@ -1,69 +1,59 @@
-import React, { useState } from 'react';
 import "./Header.css";
-import logo_1 from "./image/logo_1.svg";
+import React, { useState } from 'react'
+import logo_1 from "./image/logo_1.svg"
+import i18next from "i18next";
 import { useTranslation } from "react-i18next";
 
 function Header() {
-    const { t, i18n } = useTranslation();
+    const {t, i18n} = useTranslation()
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+    const handleChangeLanguage =(event)=>{
+        i18n.changeLanguage(event.target.value)
+    }
+  return (
+   <>
+   <div className="Header">
+  <div className="container">
+    <div className="header-wrapper">
+      
+      <a className="logo" href="#">
+        <img src={logo_1} alt="logo" />
+        {t("header.logo")}
+      </a>
 
-    const handleChangeLanguage = (event) => {
-        i18n.changeLanguage(event.target.value);
-    };
+   
+      <nav className={`header-nav ${isMenuOpen ? "active" : ""}`}>
+        <ul className="header-list">
+          <li><a className="header-link">{t("header.service")}</a></li>
+          <li><a className="header-link">{t("header.about")}</a></li>
+          <li><a className="header-link">{t("header.faq")}</a></li>
+          <li><a className="header-link">{t("header.contact")}</a></li>
+        </ul>
+        
+        <div className="header-actions">
+          <select className="select" onChange={handleChangeLanguage} value={i18n.language}>
+            <option value="uz">Uz</option>
+            <option value="en">Eng</option>
+          </select>
+          <button className="header-btn">{t("header.btn")}</button>
+        </div>
+      </nav>
 
-    return (
-        <header className="header">
-            <div className="container">
-                <nav className="header-nav">
-                    {/* Logo */}
-                    <a className="logo" href="/">
-                        <img src={logo_1} alt="logo" />
-                        <span>{t("header.logo")}</span>
-                    </a>
+   
+      <div className={`burger-menu ${isMenuOpen ? "active" : ""}`} onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-                    {/* Navigatsiya menyusi */}
-                    <ul className={`header-list ${isMenuOpen ? "active" : ""}`}>
-                        <li><a className="header-link" href="#" onClick={() => setIsMenuOpen(false)}>{t("header.service")}</a></li>
-                        <li><a className="header-link" href="#" onClick={() => setIsMenuOpen(false)}>{t("header.about")}</a></li>
-                        <li><a className="header-link" href="#" onClick={() => setIsMenuOpen(false)}>{t("header.faq")}</a></li>
-                        <li><a className="header-link" href="#" onClick={() => setIsMenuOpen(false)}>{t("header.contact")}</a></li>
-                        
-                        {/* Faqat mobilda ko'rinadigan tugma */}
-                        <li className="mobile-only">
-                            <button className="header-btn">{t("header.btn")}</button>
-                        </li>
-                    </ul>
-
-                    {/* O'ng tomon: Til va Tugma */}
-                    <div className="header-actions">
-                        <div className="select-wrapper">
-                            <select className="lang-select" onChange={handleChangeLanguage} value={i18n.language}>
-                                <option value="uz">Uz</option>
-                                <option value="en">En</option>
-                                <option value="ru">Ru</option>
-                            </select>
-                        </div>
-                        
-                        <button className="header-btn desktop-only">{t("header.btn")}</button>
-
-                        {/* Burger menyu belgisi */}
-                        <div className={`burger-menu ${isMenuOpen ? "open" : ""}`} onClick={toggleMenu}>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            
-            {/* Mobil menyu ochiqligida orqa fonni qorong'ulash (ixtiyoriy) */}
-            {isMenuOpen && <div className="overlay" onClick={() => setIsMenuOpen(false)}></div>}
-        </header>
-    );
+    </div>
+  </div>
+</div>
+   </>
+  )
 }
 
 export default Header;

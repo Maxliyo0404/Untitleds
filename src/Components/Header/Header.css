@@ -1,59 +1,47 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&family=Roboto:wght@100..900&display=swap');
-
-/* Asosiy Header */
-.header {
+.Header {
     width: 100%;
-    background-color: #ffffff;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     position: sticky;
     top: 0;
     z-index: 1000;
 }
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
 
-.container {
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 0 20px;
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #020C31;
+    text-decoration: none;
+    z-index: 1002; 
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 12px 0;
+    gap: 30px;
 }
 
-/* Logo stili */
-.logo {
-    font-family: "Unbounded", sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
-    color: #020C31;
-}
-
-.logo img {
-    height: 40px;
-}
-
-/* Menyu elementlari */
 .header-list {
     display: flex;
-    align-items: center;
-    gap: 32px;
     list-style: none;
+    gap: 24px;
 }
 
 .header-link {
-    font-family: "Roboto", sans-serif;
     text-decoration: none;
+    color: #666;
     font-weight: 500;
-    font-size: 16px;
-    color: #666666;
     transition: 0.3s;
 }
 
@@ -61,116 +49,95 @@
     color: #3360FF;
 }
 
-/* O'ng tomon elementlari */
 .header-actions {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-/* --- SELECT STILI (YANGI) --- */
-.lang-select {
-    padding: 8px 35px 8px 15px;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #020C31;
-    border: 2px solid #F0F2F5;
-    border-radius: 10px;
-    background: #F8F9FB;
+.select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
     cursor: pointer;
-    appearance: none; /* Standart strelkani olib tashlash */
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233360FF' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 12px;
-    transition: 0.3s;
 }
 
-.lang-select:hover {
-    border-color: #3360FF;
-}
-
-.lang-select:focus {
-    outline: none;
-    border-color: #3360FF;
-    box-shadow: 0 0 0 3px rgba(51, 96, 255, 0.1);
-}
-
-/* Tugma stili */
 .header-btn {
-    padding: 10px 24px;
+    padding: 10px 25px;
     background: #3360FF;
-    border-radius: 12px;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 15px;
+    color: #fff;
     border: none;
+    border-radius: 50px;
     cursor: pointer;
-    transition: 0.3s;
+    font-weight: 600;
 }
-
-.header-btn:hover {
-    background: #1e4bd8;
-    transform: translateY(-1px);
-}
-
-/* Burger Menu */
 .burger-menu {
     display: none;
     flex-direction: column;
     gap: 6px;
     cursor: pointer;
+    z-index: 1002;
 }
 
 .burger-menu span {
-    width: 25px;
+    width: 30px;
     height: 3px;
-    background-color: #020C31;
-    border-radius: 3px;
+    background: #333;
     transition: 0.3s;
+    border-radius: 5px;
 }
 
-/* Mobil Moslashuv (768px dan kichik) */
+
 @media (max-width: 768px) {
     .burger-menu {
         display: flex;
-        order: 3;
     }
 
-    .desktop-only { display: none; }
-    .mobile-only { display: block; width: 100%; }
-
-    .header-list {
+    .header-nav {
         position: fixed;
-        top: 0;
-        right: -100%;
-        width: 280px;
-        height: 100vh;
-        background-color: white;
-        flex-direction: column;
-        padding: 80px 40px;
-        box-shadow: -10px 0 30px rgba(0,0,0,0.1);
-        transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        z-index: 1050;
-    }
-
-    .header-list.active {
-        right: 0;
-    }
-
-    .overlay {
-        position: fixed;
-        top: 0;
+        top: -100%; 
         left: 0;
         width: 100%;
         height: 100vh;
-        background: rgba(0,0,0,0.4);
-        z-index: 1000;
+        background: #ffffff;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.5s ease-in-out;
+        z-index: 1001;
+        gap: 40px;
+    }
+    .header-nav.active {
+        top: 0;
     }
 
-    /* Burger Animatsiyasi */
-    .burger-menu.open span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
-    .burger-menu.open span:nth-child(2) { opacity: 0; }
-    .burger-menu.open span:nth-child(3) { transform: rotate(-45deg) translate(7px, -7px); }
+    .header-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .header-link {
+        font-size: 22px;
+        color: #020C31;
+    }
+
+    .header-actions {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .select, .header-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .burger-menu.active span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+    .burger-menu.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .burger-menu.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -7px);
+    }
 }
