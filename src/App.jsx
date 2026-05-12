@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import SectionOne from "./Components/main/SectionOne/SectionOne";
 import SectionTwo from "./Components/main/SectionTwo/SectionTwo";
+import SectionThree from "./Components/main/SectionThree/SectionThree";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Hero/>
     <SectionOne/>
     <SectionTwo/>
+    <SectionThree/>
     </>
   )
 }
