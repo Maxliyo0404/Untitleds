@@ -37,6 +37,10 @@
       "span1": "16 dars",
       "span2": "23dars"
 
+   },
+   "sectionFour":{
+      "four-title": "Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina",
+      "four-btn" : "Bog’lanish"
    }
 
 }
