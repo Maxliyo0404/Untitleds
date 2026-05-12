@@ -47,3 +47,14 @@
         transform: scale(1.1);
     }
 }
+@media (max-width: 870px){
+   .two-right{
+    max-width: 100%;
+   }
+   .two-title{
+    max-width: 100%;
+   }
+   .two-text{
+    max-width: 100%;
+   }
+}
