@@ -19,5 +19,10 @@
       "list-title2": "Sizga maqul vaqtda",
       "list-text" : "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
 
+   },
+   "sectionTwo":{
+      "two-title": "Klapa va zararli hashorot endi yo’q deb hisoblang !!!",
+      "two-text": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
+      "two-btn" : "Bog’lanish"
    }
 }
