@@ -49,7 +49,11 @@
         "basic": "Boshlang'ich tushunchalar va nazariya",
        "middle": "Nazariy va amaliy bilimlar",
        "high": "Yuqori darajadagi amaliy loyihalar"
+        },
+       "details": {
+      "basic": "Bu boshlang'ich daraja uchun ma'lumot",
+      "middle": "Bu o'rta daraja uchun ma'lumot",
+      "high": "Bu yuqori daraja uchun ma'lumot"
+    }
   }
   }
-
-}

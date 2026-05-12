@@ -47,6 +47,12 @@
     "basic": "Basic concepts and theory",
     "middle": "Theory and practical skills",
     "high": "Advanced practical projects"
-  }
+      },
+    "details": {
+      "basic": "The basic level is designed for beginners. You will learn the fundamentals and foundations of the chosen direction.",
+      "middle": "The intermediate level will help you deepen your knowledge and start working on real projects.",
+      "high": "The advanced level is focused on professionals who want to master complex architectural solutions."
+    }
+
 }
 }
