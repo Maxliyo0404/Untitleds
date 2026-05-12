@@ -5,6 +5,7 @@ import hero_1  from "./image/hero_1.png";
 import hero_2  from "./image/hero_2.svg";
 import hero_11  from "./image/hero_11.svg";
 import hero_3  from "./image/hero_3.svg";
+import hero_4  from "./image/hero_4.svg";
 import { FaBeer, FaAddressBook } from 'react-icons/fa'; 
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -23,7 +24,7 @@ function Hero() {
             <div className="span1"><img src={hero_11} alt="" /></div>
           </div>
           <img className="left-rasm1" src={hero_3} alt="" />
-          <img className="left-rasm2" src={} alt="" />
+          <img className="left-rasm2" src={hero_4} alt="" />
         
         </div>
         <div className="hero-btns">
