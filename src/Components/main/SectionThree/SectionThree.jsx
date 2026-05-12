@@ -13,7 +13,17 @@ function SectionThree() {
                 <ul className="three-list">
                     <li className="three-item">
                         <h3 className="list-title">{t("sectionThree.list-title")}</h3>
-                        <p className="list-title">{t("sectionThree.list-text")}</p>
+                        <p className="list-text">{t("sectionThree.list-text")}</p>
+                        <span className="three-span">{t("sectionThree.span1")}</span>
+                    </li>
+                    <li className="three-item">
+                        <h3 className="list-title">{t("sectionThree.list-title")}</h3>
+                        <p className="list-text">{t("sectionThree.list-text")}</p>
+                        <span className="three-span">{t("sectionThree.span1")}</span>
+                    </li>
+                    <li className="three-item">
+                        <h3 className="list-title">{t("sectionThree.list-title")}</h3>
+                        <p className="list-text">{t("sectionThree.list-text")}</p>
                         <span className="three-span">{t("sectionThree.span1")}</span>
                     </li>
                 </ul>
