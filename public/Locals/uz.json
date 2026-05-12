@@ -41,6 +41,15 @@
    "sectionFour":{
       "four-title": "Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina",
       "four-btn" : "Bog’lanish"
-   }
+   },
+   "sectionFive": {
+      "five-title": "Ko'p beriladigan savollar",
+      "select-label": "Kursdan nima topaman?",
+      "options": {
+        "basic": "Boshlang'ich tushunchalar va nazariya",
+       "middle": "Nazariy va amaliy bilimlar",
+       "high": "Yuqori darajadagi amaliy loyihalar"
+  }
+  }
 
 }

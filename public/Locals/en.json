@@ -39,5 +39,14 @@
   "sectionFour": {
     "four-title": "Many have trusted our company for many years",
     "four-btn": "Contact Us"
+  },
+  "sectionFive": {
+   "five-title": "FAQ",
+  "select-label": "What will I find in the course?",
+  "options": {
+    "basic": "Basic concepts and theory",
+    "middle": "Theory and practical skills",
+    "high": "Advanced practical projects"
   }
+}
 }
