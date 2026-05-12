@@ -16,7 +16,7 @@ function Hero() {
         <p className="hero-text">{t("hero.text")}</p>
         <div className="hero-img">
           <div className="hero-rasm1">
-            <img src={hero_1} alt="rasm" />
+            <img className="hero-qol" src={hero_1} alt="rasm" />
             <div className="span1"></div>
           </div>
           <div className="hero-rasm2"></div>
@@ -30,7 +30,7 @@ function Hero() {
 
        </div>
        <div className="hero-right">
-        <img src={hero_2} alt="rasm" />
+        <img className="right-rasm" src={hero_2} alt="rasm" />
        </div>
       </div>
       </div>
