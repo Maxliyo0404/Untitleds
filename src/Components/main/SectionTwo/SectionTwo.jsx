@@ -10,7 +10,8 @@ function SectionTwo() {
         <div className="container">
             <div className="sectionTwo-wrapper">
                <div className="two-right">
-                
+                <h2 className="two-title">{t("SectionTwo.two-title")}</h2>
+                <p className="two-text">{t("SectionTwo.two-text")}</p>
                </div>
             </div>
         </div>
