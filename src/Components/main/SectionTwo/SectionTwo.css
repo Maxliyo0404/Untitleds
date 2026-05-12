@@ -14,4 +14,22 @@
     align-items: start;
     justify-content: start;
     flex-direction: column;
+    padding-top: 60px;
+}
+.two-title{
+    max-width: 558px;
+     font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FAFAFA;
+    margin-bottom: 20px;
+    font-family: "Unbounded", sans-serif;
+}
+.two-text{
+     font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin-bottom: 136px;
+    font-family: "Roboto", sans-serif;
 }
