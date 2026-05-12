@@ -9,6 +9,7 @@
    } ,
    "hero":{
       "title": "Dizinfeksiya xizmati",
-      "text" : "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+      "text" : "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
+      "hero-btn": "Bog’lanish"
    }
 }
