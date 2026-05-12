@@ -21,14 +21,14 @@ function SectionThree() {
                     </li>
                     <li className="three-item">
                         <h3 className="list-title">{t("sectionThree.list-title1")}</h3>
-                        <p className="list-text">{t("sectionThree.list-text1")}</p>
-                        <span className="three-span">{t("sectionThree.span2")}</span>
+                        <p className="list-text1">{t("sectionThree.list-text1")}</p>
+                        <span className="three-span1">{t("sectionThree.span2")}</span>
                          <img className="three-rasm" src={three_2} alt="" />
                     </li>
                     <li className="three-item">
                         <h3 className="list-title">{t("sectionThree.list-title2")}</h3>
-                        <p className="list-text">{t("sectionThree.list-text2")}</p>
-                        <span className="three-span">{t("sectionThree.span1")}</span>
+                        <p className="list-text2">{t("sectionThree.list-text2")}</p>
+                        <span className="three-span1">{t("sectionThree.span1")}</span>
                          <img className="three-rasm" src={three_3} alt="" />
                     </li>
                 </ul>
