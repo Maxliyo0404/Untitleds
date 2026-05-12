@@ -24,5 +24,19 @@
       "two-title": "Klapa va zararli hashorot endi yo’q deb hisoblang !!!",
       "two-text": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
       "two-btn" : "Bog’lanish"
+   },
+   "sectionThree":{
+      "three-title":  "Service",
+      "three-text": "Bu darsliklari sizning yuqori daraja olishingizga yordam beradi",
+      "list-title": "Boshlang’ich tushunchalar",
+      "list-title1": "O'rta",
+      "list-title2": "Yuqori",
+      "list-text": "nazariy bilimlar",
+      "list-text1": "nazariy va Amaliy bilimlar",
+      "list-text2": "Amaliy bilimlar",
+      "span1": "16 dars",
+      "span2": "23dars"
+
    }
+
 }

@@ -23,5 +23,17 @@
     "two-title": "Consider bedbugs and harmful insects gone forever!!!",
     "two-text": "Our company has been operating for many years, and our clients are completely satisfied with our services.",
     "two-btn": "Contact Us"
+  },
+   "sectionThree": {
+    "three-title": "Service",
+    "three-text": "These tutorials will help you achieve a high level",
+    "list-title": "Basic Concepts",
+    "list-title1": "Intermediate",
+    "list-title2": "Advanced",
+    "list-text": "Theoretical knowledge",
+    "list-text1": "Theoretical and practical knowledge",
+    "list-text2": "Practical knowledge",
+    "span1": "16 lessons",
+    "span2": "23 lessons"
   }
 }
