@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./SectionSix.css";
 import React from 'react'
+import six_1 from "./image/six_1.svg"
 
 function SectionSix() {
     const {t, i18n} = useTranslation();
@@ -19,8 +20,13 @@ function SectionSix() {
                     </label>
                     <label className="label">
                          <input type="checkbox" required />
-                                      {t('placeholders.privacy_policy')}</label>
+                     {t('placeholders.privacy_policy')}</label>
+                     <button className="six-btn">{t("placeholders.six-btn")}</button>
                 </form>
+             </div>
+             <div className="six-right">
+                <p className="six-btn">{t("sectionSix.six-text")}</p>
+                <img src={six_1} alt="rasm" />
              </div>
             </div>
         </div>

@@ -53,6 +53,7 @@
   "placeholders": {
     "name": "Name",
     "phone": "+998 ",
-    "privacy_policy": "Privacy Policy"
+    "privacy_policy": "Privacy Policy",
+    "six-btn": "Sign up"
   }
 }
