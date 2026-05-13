@@ -17,6 +17,9 @@ function SectionSix() {
                     <label className="label">
                     <input type="number"required placeholder={t('placeholders.phone')} />
                     </label>
+                    <label className="label">
+                         <input type="checkbox" required />
+                                      {t('placeholders.privacy_policy')}</label>
                 </form>
              </div>
             </div>

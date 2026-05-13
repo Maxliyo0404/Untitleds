@@ -17,21 +17,21 @@ function SectionFive() {
             </div>
              <div className="five-right">
                 <div className="select-wrapper">
-                <select className="select">
+                <select className="selects">
                     <option value="select-label">{t("sectionFive.select-label")}</option>
                     <option value="basic ">{t("sectionFive.basic")}</option>
                     <option value="middle">{t("sectionFive.middle")}</option>
                 </select>
                 </div>
                 <div className="select-wrapper">
-                <select className="select">
+                <select className="selects">
                     <option value="select-label">{t("sectionFive.select-label")}</option>
                     <option value="basic ">{t("sectionFive.basic")}</option>
                     <option value="middle">{t("sectionFive.middle")}</option>
                 </select>
                 </div>
                 <div className="select-wrapper">
-                <select className="select">
+                <select className="selects">
                     <option value="select-label">{t("sectionFive.select-label")}</option>
                     <option value="basic ">{t("sectionFive.basic")}</option>
                     <option value="middle">{t("sectionFive.middle")}</option>
