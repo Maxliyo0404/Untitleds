@@ -9,7 +9,7 @@ function SectionSix() {
         <div className="container">
             <div className="sectionSix-wrapper">
              <div className="six-left">
-                
+                <h2 className="six-title">{t("sectionSix.six-title")}</h2>
              </div>
             </div>
         </div>
