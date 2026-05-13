@@ -47,7 +47,9 @@
       "select-label": "Kursdan nima topaman?",
         "basic": "Boshlang'ich tushunchalar va nazariya",
        "middle": "Nazariy va amaliy bilimlar"
-      
-
+  },
+  "sectionSix":{
+   "six-title": "Malumotingizni qoldiring",
+   "six-text" : "Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina"
   }
   }

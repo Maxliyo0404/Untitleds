@@ -45,8 +45,9 @@
   "select-label": "What will I find in the course?",
     "basic": "Basic concepts and theory",
     "middle": "Theory and practical skills"
-  
-
-
-}
+},
+"sectionSix": {
+    "six-title": "Leave your information",
+    "six-text": "There are many who have trusted our company for many years"
+  }
 }
