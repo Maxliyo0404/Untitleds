@@ -10,6 +10,14 @@ function SectionSix() {
             <div className="sectionSix-wrapper">
              <div className="six-left">
                 <h2 className="six-title">{t("sectionSix.six-title")}</h2>
+                <form color="form">
+                    <label className="label">
+                    <input type="text"required placeholder={t('placeholders.name')}/>
+                    </label>
+                    <label className="label">
+                    <input type="number"required placeholder={t('placeholders.phone')} />
+                    </label>
+                </form>
              </div>
             </div>
         </div>

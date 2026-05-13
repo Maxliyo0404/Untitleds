@@ -49,5 +49,9 @@
 "sectionSix": {
     "six-title": "Leave your information",
     "six-text": "There are many who have trusted our company for many years"
+  },
+  "placeholders": {
+    "name": "Name",
+    "phone": "+998 00 000 00 00"
   }
 }

@@ -51,5 +51,8 @@
   "sectionSix":{
    "six-title": "Malumotingizni qoldiring",
    "six-text" : "Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina"
+  },"placeholders": {
+    "name": "Ismingiz",
+    "phone": "+998 00 000 00 00"
   }
   }
