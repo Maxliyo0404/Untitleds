@@ -1,7 +1,6 @@
 
 .sectionFive-wrapper{
    padding: 40px 0;
-    margin-bottom: 100px;
 }
 hr{
     max-width: 100%;
@@ -21,7 +20,7 @@ hr{
 .five-title{
     font-weight: 700;
     font-size: 32px;
-    line-height: 48px;
+    line-height: 45px;
     color: #020C31;
     font-family: "Unbounded", sans-serif;
 }
@@ -80,6 +79,27 @@ hr{
   }
   .five-left{
     max-width: 100%;
+  }
+  .five-right{
+    max-width: 100%;
+  }
+}
+@media (max-width: 560px){
+    .sectionFive-wrapper{
+        padding: 20px 0;
+    }
+
+  .five-card{
+    flex-direction: column;
+  }
+  .five-left{
+    max-width: 100%;
+  }
+  .five-title{
+    max-width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
   }
   .five-right{
     max-width: 100%;
