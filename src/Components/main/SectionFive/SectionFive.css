@@ -1,0 +1,78 @@
+
+.sectionFive-wrapper{
+   padding: 40px 0;
+    margin-bottom: 100px;
+}
+hr{
+    max-width: 100%;
+    border: 1px solid #CCCCCC;
+}
+.five-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 40px;
+}
+.five-left{
+  max-width: 30%;
+
+}
+.five-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #020C31;
+    font-family: "Unbounded", sans-serif;
+}
+
+.five-right{
+  max-width: 65%;
+}
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.select {
+    width: 100%;
+    appearance: none; 
+    -webkit-appearance: none;
+    padding: 12px;
+    padding-right: 50px; 
+    border: none;
+    border-bottom: 2px solid #676D83;
+    background: transparent;
+    font-family: "Unbounded", sans-serif;
+    outline: none;
+    cursor: pointer;
+    
+   
+}
+
+
+.select-wrapper::after {
+    content: "▼";
+    font-size: 12px;
+    color: #020C31; 
+     background: var(--Fon-Sery, #F2F2F2);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none; 
+
+}
+.select-wrapper:hover::after {
+    background-color: blue; 
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
