@@ -19,7 +19,6 @@ function SectionFive() {
                 <div className="select-wrapper">
                 <select className="select">
                     <option value="select-label">{t("sectionFive.select-label")}</option>
-                    <option value="high ">{t("sectionFive.high")}</option>
                     <option value="basic ">{t("sectionFive.basic")}</option>
                     <option value="middle">{t("sectionFive.middle")}</option>
                 </select>
@@ -27,7 +26,6 @@ function SectionFive() {
                 <div className="select-wrapper">
                 <select className="select">
                     <option value="select-label">{t("sectionFive.select-label")}</option>
-                    <option value="high ">{t("sectionFive.high")}</option>
                     <option value="basic ">{t("sectionFive.basic")}</option>
                     <option value="middle">{t("sectionFive.middle")}</option>
                 </select>
@@ -35,7 +33,6 @@ function SectionFive() {
                 <div className="select-wrapper">
                 <select className="select">
                     <option value="select-label">{t("sectionFive.select-label")}</option>
-                    <option value="high ">{t("sectionFive.high")}</option>
                     <option value="basic ">{t("sectionFive.basic")}</option>
                     <option value="middle">{t("sectionFive.middle")}</option>
                 </select>
