@@ -143,11 +143,12 @@ input:focus {
 
     .six-text {
         max-width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .six-rasm {
         max-height: 250px;
+
     }
 
     .checkbox-group {
