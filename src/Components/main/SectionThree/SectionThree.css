@@ -35,6 +35,9 @@
     padding: 48px 33px;
     position: relative;
     transition: all 03s ease-in-out;
+    &:hover{
+        transform: scale(0.8);
+    }
 
 }
 .list-title{
