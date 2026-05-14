@@ -154,10 +154,16 @@ input:focus {
 
     .six-rasm {
         position: static; 
-        max-width: 80%; 
+        max-width: 70%; 
         height: auto;
         margin: 0 auto;
         transform: none; 
         display: block;
     }
+}
+@media (max-width: 468px){
+  .six-text{
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
