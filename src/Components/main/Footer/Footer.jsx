@@ -5,6 +5,7 @@ import footer_1 from "./image/footer_1.svg";
 import { FaBeer, FaAddressBook } from 'react-icons/fa'; 
 import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineLocalPhone } from "react-icons/md";
+import { GoArrowUpRight } from "react-icons/go";
 
 function Footer() {
     const {t, i18n} = useTranslation();
@@ -16,11 +17,11 @@ function Footer() {
                 <ul className=" footer-list">
                     <li className="footer-item">
                      <a className="footers" href="#">
-                        <span className="spans"><CiLocationOn />{t,("footer.footer-title")}</span>
-                     </a>
+                        <span className="spans"><CiLocationOn />{t("footer.footer-title")}</span>
+                     <GoArrowUpRight /></a>
                      <a className="footers" href="#">
-                        <span className="spans"><MdOutlineLocalPhone />{t,("footer.footer-number")}</span>
-                     </a>
+                        <span className="spans"><MdOutlineLocalPhone />{t("footer.footer-number")}</span>
+                     <GoArrowUpRight /></a>
                     </li>
                 </ul>
             </div>
