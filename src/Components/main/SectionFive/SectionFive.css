@@ -86,11 +86,12 @@ hr{
 }
 @media (max-width: 560px){
     .sectionFive-wrapper{
-        padding: 20px 0;
+        padding: 30px 0;
     }
 
   .five-card{
     flex-direction: column;
+    padding: 30px;
   }
   .five-left{
     max-width: 100%;
