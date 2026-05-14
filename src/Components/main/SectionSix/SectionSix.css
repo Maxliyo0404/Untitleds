@@ -129,6 +129,10 @@ input:focus {
         order: 2; 
     }
 
+    .six-title {
+    font-weight: 700;
+    font-size: 28px;
+      }
     .six-right {
         max-width: 100%;
         order: 1; 
