@@ -152,6 +152,8 @@ input:focus {
 
     .six-rasm {
         max-height: 250px;
+        bottom: 0;
+        right: 0;
 
     }
 
