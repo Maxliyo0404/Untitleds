@@ -1,5 +1,4 @@
 .sectionSix-wrapper {
-    margin-bottom: 100px;
     background: radial-gradient(58.39% 328.01% at 51.32% 69.21%, #3DA0FC 0%, rgba(2, 227, 214, 0.4) 100%);
     padding:40px;
     display: flex;
@@ -162,9 +161,9 @@ input:focus {
     }
 }
 @media (max-width: 468px){
-  .six-text{
+  .six-title{
     width: 100%;
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 19px;
+    line-height: 23px;
   }
 }
