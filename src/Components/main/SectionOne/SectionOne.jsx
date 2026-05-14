@@ -18,17 +18,17 @@ function SectionOne() {
                     <li className="one-item">
                      <div className="icon"><GiBrain /></div>
                      <h3 className="list-title">{t ("sectionOne.list-title")}</h3>
-                     <p className="list-text">{t ("sectionOne.list-text")}</p>
+                     <p className="list-texts">{t ("sectionOne.list-text")}</p>
                     </li>
                     <li className="one-item">
                      <div className="icon"><PiCertificateBold /></div>
                      <h3 className="list-title">{t ("sectionOne.list-title1")}</h3>
-                     <p className="list-text">{t ("sectionOne.list-text")}</p>
+                     <p className="list-texts">{t ("sectionOne.list-text")}</p>
                     </li>
                     <li className="one-item">
                      <div className="icon"><FaRegHandshake /></div>
                       <h3 className="list-title">{t("sectionOne.list-title2")}</h3>
-                     <p className="list-text">{t("sectionOne.list-text")}</p>
+                     <p className="list-texts">{t("sectionOne.list-text")}</p>
                     </li>
                 </ul>
             </div>

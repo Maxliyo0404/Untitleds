@@ -22,6 +22,7 @@
 .one-item{
     max-width: 100%;
     padding-top: 32px;
+  
 }
 .icon{
     font-size: 45px;
@@ -36,7 +37,7 @@
     margin-bottom: 8px;
     font-family: "Unbounded", sans-serif;
 }
-.list-text{
+.list-texts{
      font-weight: 400;
     font-size: 16px;
     line-height: 24px;
