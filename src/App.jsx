@@ -8,7 +8,7 @@ import SectionThree from "./Components/main/SectionThree/SectionThree";
 import SectionFour from "./Components/main/SectionFour/SectionFour";
 import SectionFive from "./Components/main/SectionFive/SectionFive";
 import SectionSix from "./Components/main/SectionSix/SectionSix";
-
+import Footer from "./Components/main/Footer/Footer";
 function App() {
   return (
     <>
@@ -20,6 +20,7 @@ function App() {
     <SectionFour/>
     <SectionFive/>
     <SectionSix/>
+    <Footer/>
     </>
   )
 }
