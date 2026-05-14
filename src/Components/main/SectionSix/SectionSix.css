@@ -142,20 +142,23 @@ input:focus {
         align-items: center;
         position: relative; /* Absolute'dan voz kechamiz yoki boshqaramiz */
     }
+    input:not([type="checkbox"]) {
+        margin-bottom: 20px;
+    }
 
     .six-text {
-        max-width: 100%;
+        width: 100%;
         margin-bottom: 20px;
         font-size: 18px;
         line-height: 22px;
     }
 
     .six-rasm {
-        position: static; /* Absolute'ni bekor qilamiz */
-        max-width: 80%; /* Rasm juda katta bo'lib ketmasligi uchun */
+        position: static; 
+        max-width: 80%; 
         height: auto;
         margin: 0 auto;
-        transform: none; /* Oldingi transformlarni tozalaymiz */
+        transform: none; 
         display: block;
     }
 }
