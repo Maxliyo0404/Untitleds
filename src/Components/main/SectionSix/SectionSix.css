@@ -130,9 +130,10 @@ input:focus {
     }
 
     .six-title {
-        max-width: 100%;
+         max-width: 100%;
          font-weight: 700;
          font-size: 18px;
+         line-height: 22px;
       }
     .six-right {
         max-width: 100%;
