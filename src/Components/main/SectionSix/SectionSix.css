@@ -80,7 +80,7 @@ input{
     font-size: 20px;
     line-height: 24px;
     color: #FAFAFA;
-    transform: translate(-180px);
+   position: absolute;
    
 
 }
