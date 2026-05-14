@@ -163,6 +163,7 @@ input:focus {
 }
 @media (max-width: 468px){
   .six-text{
+    width: 100%;
     font-size: 14px;
     line-height: 19px;
   }
