@@ -9,7 +9,10 @@ function Footer() {
     <div className="footer">
         <div className="container">
             <div className="footer-wrapper">
-                
+                <a className="footer-img" href="#"> <img src={footer_1} alt="rasm" /></a>
+                <ul className=" footer-list">
+                    <li className="footer-item"></li>
+                </ul>
             </div>
         </div>
     </div>
