@@ -23,6 +23,12 @@ function Footer() {
                         <span className="spans"><MdOutlineLocalPhone />{t("footer.footer-number")}</span>
                      <GoArrowUpRight /></a>
                     </li>
+                    <hr />
+                    <div className="icons">
+                        <div className="icon"><GoArrowUpRight /></div>
+                        <div className="icon"><GoArrowUpRight /></div>
+                        <div className="icon"><GoArrowUpRight /></div>
+                    </div>
                 </ul>
             </div>
         </div>
