@@ -124,40 +124,37 @@ input:focus {
     .sectionSix-wrapper {
         flex-direction: column; 
         text-align: center;
-        padding: 20px;
-       
+        padding: 30px 20px;
+        gap: 20px; /* Elementlar orasidagi masofa */
     }
 
     .six-left {
         max-width: 100%;
-        order: 2; 
+        order: 2; /* Formani pastga tushiradi */
+        z-index: 5; /* Formani rasm ustiga chiqarmasligi uchun */
     }
 
-    .six-title {
-         max-width: 100%;
-         font-weight: 700;
-         font-size: 18px;
-         line-height: 22px;
-      }
     .six-right {
         max-width: 100%;
-        order: 1; 
+        order: 1; /* Matn va rasm tepada */
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        position: relative; /* Absolute'dan voz kechamiz yoki boshqaramiz */
     }
 
     .six-text {
         max-width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
     }
 
     .six-rasm {
-        max-height: 250px;
-        bottom: 0;
-        right: 0;
-
-    }
-
-    .checkbox-group {
-        justify-content: center;
+        position: static; /* Absolute'ni bekor qilamiz */
+        max-width: 80%; /* Rasm juda katta bo'lib ketmasligi uchun */
+        height: auto;
+        margin: 0 auto;
+        transform: none; /* Oldingi transformlarni tozalaymiz */
+        display: block;
     }
 }
