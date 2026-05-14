@@ -16,10 +16,10 @@ function Footer() {
                 <ul className=" footer-list">
                     <li className="footer-item">
                      <a className="footers" href="#">
-                        <span className="spans"><CiLocationOn /></span>
+                        <span className="spans"><CiLocationOn />{t,("footer.footer-title")}</span>
                      </a>
                      <a className="footers" href="#">
-                        <span className="spans"><MdOutlineLocalPhone /></span>
+                        <span className="spans"><MdOutlineLocalPhone />{t,("footer.footer-number")}</span>
                      </a>
                     </li>
                 </ul>
