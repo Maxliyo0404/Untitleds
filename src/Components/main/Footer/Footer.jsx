@@ -18,10 +18,10 @@ function Footer() {
                     <li className="footer-item">
                      <a className="footers" href="#">
                         <span className="spans"><CiLocationOn /></span>{t("footer.footer-title")}
-                     <span className="icons"><GoArrowUpRight /></span></a>
+                     <span className="iconn"><GoArrowUpRight /></span></a>
                      <a className="footers" href="#">
                         <span className="spans"><MdOutlineLocalPhone /></span>{t("footer.footer-number")}
-                    <span className="icons"><GoArrowUpRight /></span></a>
+                    <span className="iconn"><GoArrowUpRight /></span></a>
                     </li>
                     <hr />
                     <div className="iconss">
