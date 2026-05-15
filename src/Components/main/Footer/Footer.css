@@ -33,7 +33,7 @@
 .footers{
     font-family: "Unbounded", sans-serif;
      display: flex;
-    gap: 15px;
+    gap: 12px;
     align-items: center;
     color:#242825CC;
     font-weight: 500;
@@ -81,4 +81,9 @@
      &:hover{
         transform: scale(0.8);
      }
+}
+@media (max-width: 900px) {
+   .footer-wrapper{
+    flex-direction: column;
+   }
 }
