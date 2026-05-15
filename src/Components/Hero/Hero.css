@@ -116,22 +116,20 @@
 }
 @media (max-width: 1070px) {
     .hero-wrapper {
-        flex-direction: row; /* Elementlar yonma-yon turishi uchun */
-        justify-content: space-between;
+        flex-direction: column-reverse;
         align-items: center;
+        text-align: center;
         padding: 40px 0;
-        gap: 20px;
     }
-
     .hero-left {
-        max-width: 50%; /* Chap tomonga 50% joy ajratamiz */
-        position: relative;
+        max-width: 100%;
+        margin-top: 50px;
     }
 
     .hero-title {
-        font-size: 38px; /* Ekran kichraygani uchun shriftni mosladik */
-        line-height: 46px;
-        max-width: 100%;
+        font-size: 40px; 
+        line-height: 48px;
+       max-width: 100%;
     }
 
     .hero-text {
@@ -139,77 +137,62 @@
     }
 
     .hero-btns {
-        position: relative; /* Tugmalar matn tagidan chiqishi uchun */
-        margin-top: 20px;
+        position: relative; 
+        justify-content: center;
+        bottom: 0;
     }
 
     .hero-right {
-        max-width: 50%; /* O'ng tomondagi rasm qismi ham 50% */
-        width: 50%;
+        max-width: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         position: relative;
+        height: 400px; 
     }
 
-    /* Rasm ichidagi absolut elementlarning joylashuvi */
     .hero-img {
-        max-width: 100%;
-        position: relative;
-        left: 0;
-        top: 0;
-    }
-
-    /* .span1 .hero-qol uchun asos (relative) bo'lib xizmat qiladi */
-    .span1 {
-        position: relative; 
-        display: inline-block;
-        max-width: 100%;
-    }
-
-    /* .hero-qol .span1 ning ichida joylashgani sababli unga nisbatan absolute bo'ladi */
-    .hero-qol {
-        position: absolute;
-        max-width: 60%;
-        top: 10px;
-        left: 5px;
-        z-index: 11;
-    }
-
-    .left-rasm1 {
-        position: absolute;
-        left: 0;
-        top: 0;
-        max-width: 100%;
+        display:none;
     }
 }
 
-/* =======================================================
-   KICHIK MOBIL QURILMALAR (600px va 400px)
-   ======================================================= */
 @media (max-width: 600px) {
-    .hero-wrapper {
-        flex-direction: column-reverse; /* Juda kichik ekranda ustun shakliga o'tadi */
-        text-align: center;
+    .hero-title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
     }
-    .hero-left, .hero-right {
-        max-width: 100%;
-        width: 100%;
+    .hero-text{
+        margin-bottom: 20px;
+    }
+    
+    .hero-right {
+        height: 300px; 
+    }
+
+
+
+}
+@media (max-width: 400px) {
+    .hero-wrapper{
+        padding: 20px 0;
+    }
+    .hero-left{
+        margin-top: -15px;
     }
     .hero-title {
         font-size: 30px;
-        line-height: 38px;
-    }
-    .hero-btns {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 400px) {
-    .hero-wrapper {
-        padding: 20px 0;
-    }
-    .hero-title {
-        font-size: 26px;
         line-height: 32px;
+        margin-bottom: 20px;
+        text-align: center;
     }
+    .hero-text{
+        margin-bottom: 20px;
+    }
+    
+    .hero-right {
+        height: 300px; 
+    }
+
+
 }

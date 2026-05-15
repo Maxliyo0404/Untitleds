@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .footer-wrapper{
-    margin-bottom: 100px;
     padding: 40px 0;
     display: flex;
     align-items: start;
