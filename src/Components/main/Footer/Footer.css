@@ -64,7 +64,6 @@
 .icons{
     width: 330px;
     background: var(--Fon-Sery, #F2F2F2);
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,4 +75,5 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    transform: ;
 }
