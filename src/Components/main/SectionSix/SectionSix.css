@@ -142,6 +142,13 @@ input:focus {
     }
     input:not([type="checkbox"]) {
         margin-bottom: 20px;
+        padding: 10px 20px;
+    }
+    .six-btn{
+        padding: 12px 0;
+    }
+    .checkbox-group{
+        margin-bottom: 25px;
     }
 
     .six-text {
