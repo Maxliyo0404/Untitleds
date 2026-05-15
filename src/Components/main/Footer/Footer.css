@@ -105,16 +105,21 @@
    .footer-list{
     width: 100%;
     text-align: center;
+    gap: 22px;
    }
    .iconss{
     flex-direction: column;
 
+   }
+   .iconn{
+    
    }
    .icons{
       font-size: 14px;
       line-height: 20px;
    }
    .footers{
+      gap: 4px;
       font-size: 12px;
       line-height: 16px;
    }
