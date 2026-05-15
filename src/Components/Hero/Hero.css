@@ -151,7 +151,17 @@
     }
 
     .hero-img {
-        display: none;
+        max-width: 40%;
+        flex-direction: row;
+        position: relative;
+    }
+    .hero-qol{
+        max-width: 50%;
+        top:  30px;
+        left: -1%;
+    }
+    .span1{
+        width: 100px;
     }
    
 }
