@@ -24,7 +24,7 @@ function Footer() {
                     <span className="icons"><GoArrowUpRight /></span></a>
                     </li>
                     <hr />
-                    <div className="icons">
+                    <div className="iconss">
                         <span className="icons">{t("footer.Facebook")}<GoArrowUpRight /></span>
                         <span className="icons">{t("footer.Instagram")}<GoArrowUpRight /></span>
                         <span className="icons">{t("footer.Telegram")}<GoArrowUpRight /></span>
