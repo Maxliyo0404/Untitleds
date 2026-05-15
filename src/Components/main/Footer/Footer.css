@@ -31,6 +31,7 @@
     gap: 15px;
 }
 .footers{
+    font-family: "Unbounded", sans-serif;
      display: flex;
     gap: 15px;
     align-items: center;
@@ -62,6 +63,7 @@
     
 }
 .icons{
+    font-family: "Unbounded", sans-serif;
     width: 330px;
     background: var(--Fon-Sery, #F2F2F2);
     display: flex;
@@ -77,6 +79,6 @@
     line-height: 24px;
      transition: all 0.3s ease-in-out;
      &:hover{
-        
+        transform: scale(0.8);
      }
 }
