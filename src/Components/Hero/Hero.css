@@ -48,6 +48,7 @@
    position: relative;
    left: 54%;
    top: -20%;
+   flex: 1;
 }
 .hero-qol{
    max-width: 220px;
@@ -152,7 +153,8 @@
 
     .hero-img {
         max-width: 40%;
-        flex-direction: row;
+        display: flex;
+        flex-direction: row-reverse;
         position: relative;
     }
     .hero-qol{
@@ -161,7 +163,13 @@
         left: -1%;
     }
     .span1{
-        width: 100px;
+        width: fit-content;
+        position: relative;
+    }
+    .left-rasm1{
+        left: 0%;
+         top: 0%;
+   
     }
    
 }
@@ -178,6 +186,9 @@
     
     .hero-right {
         height: 300px; 
+    }
+    .left-rasm1{
+        left: ;
     }
 
 
