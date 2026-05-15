@@ -13,21 +13,21 @@ function Footer() {
     <div className="footer">
         <div className="container">
             <div className="footer-wrapper">
-                <a className="footer-img" href="#"> <img src={footer_1} alt="rasm" /></a>
+                <a className="footer-img" href="#"> <img src={footer_1} alt="rasm" />{t("footer.logo")}</a>
                 <ul className=" footer-list">
                     <li className="footer-item">
                      <a className="footers" href="#">
-                        <span className="spans"><CiLocationOn />{t("footer.footer-title")}</span>
-                     <GoArrowUpRight /></a>
+                        <span className="spans"><CiLocationOn /></span>{t("footer.footer-title")}
+                     <span className="icons"><GoArrowUpRight /></span></a>
                      <a className="footers" href="#">
-                        <span className="spans"><MdOutlineLocalPhone />{t("footer.footer-number")}</span>
-                     <GoArrowUpRight /></a>
+                        <span className="spans"><MdOutlineLocalPhone /></span>{t("footer.footer-number")}
+                    <span className="icons"><GoArrowUpRight /></span></a>
                     </li>
                     <hr />
                     <div className="icons">
-                        <div className="icon"><GoArrowUpRight /></div>
-                        <div className="icon"><GoArrowUpRight /></div>
-                        <div className="icon"><GoArrowUpRight /></div>
+                        <span className="icons">{t("footer.Facebook")}<GoArrowUpRight /></span>
+                        <span className="icons">{t("footer.Instagram")}<GoArrowUpRight /></span>
+                        <span className="icons">{t("footer.Telegram")}<GoArrowUpRight /></span>
                     </div>
                 </ul>
             </div>
